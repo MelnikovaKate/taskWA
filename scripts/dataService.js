@@ -35,8 +35,6 @@ function initDataService(){
 
         session.ArrayTags = [];
         array.forEach(function(item,i){
-            // debugger
-            // session.ArrayTags.push({'value': item.childNodes[0].innerText, 'id': i});
             session.ArrayTags.push({'value': item, 'id': i});
         });
         localStorage.setItem('session', JSON.stringify(session));
