@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="tags-container">
+        <div class="tags-header">
+            <input type="text" id="tags-input" class="tags-input" placeholder="Enter new tag..."/>
+            <button id="tags-add-btn" class="tags-add-btn">Add</button>
+            <span class="material-icons">lock</span>
+            <input type="checkbox" id="readonly-property" class="readonly-property">           
+        </div>
+        <div class="tags-area">
+            <ul id="tags-list" class="tags-list"></ul>
+        </div>
+    </div>
+</body>
+<script src="../scripts/script.js"></script>
+<script src="../scripts/dataService.js"></script>
+</html>
